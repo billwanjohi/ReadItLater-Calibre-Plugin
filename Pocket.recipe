@@ -21,10 +21,10 @@ class Pocket(BasicNewsRecipe):
                             read after downloading.'''
     publisher             = 'getpocket.com'
     category              = 'news, custom'
-    oldest_article        = 7
-    max_articles_per_feed = 50
-    minimum_articles      = 10
-    mark_as_read_after_dl = True
+    oldest_article        = 365
+    max_articles_per_feed = 500
+    minimum_articles      = 1
+    mark_as_read_after_dl = False
     no_stylesheets        = True
     use_embedded_content  = False
     needs_subscription    = True
